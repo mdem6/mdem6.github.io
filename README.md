@@ -1,2 +1,2 @@
-# mdem6.github.io
+# madem.github.io
 DATA352W on Jan 22
