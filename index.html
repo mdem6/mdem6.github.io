@@ -8,11 +8,14 @@
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             line-height: 1.6;
             background-color: #000000;
+            color: #fff;
         }
         .container {
             max-width: 800px;
             margin: auto;
             padding: 20px;
+            background-color: #fff;
+            color: #000;
         }
         header {
             background: #333;
@@ -37,7 +40,6 @@
             color: white;
         }
         .content {
-            background: #fff;
             padding: 20px;
             margin-top: 20px;
         }
@@ -53,6 +55,16 @@
             text-align: center;
             padding: 10px;
             margin-top: 20px;
+        }
+        /* Gallery styles */
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            grid-gap: 15px;
+        }
+        .gallery img {
+            width: 100%;
+            height: auto;
         }
     </style>
 </head>
@@ -92,16 +104,27 @@
 
         <h3>My Projects and Contributions</h3>
         <p>In this course, I have worked on various projects, from technical reports and presentations to crafting technical blog posts that incorporate data visualizations and computing resources. These projects not only showcase my analytical and technical skills but also my commitment to ethical and responsible data science practices.</p>
-        
-        <!-- Inserted image below -->
-        <img src="DataScienceImage.jpg" alt="Data Science Workspace" style="width:100%;height:auto;">
-
     </div>
 
-    <footer>
-        <p>Contact me on <a href="https://github.com/mdem6" style="color: #00B7FF">GitHub</a>.</p>
-    </footer>
+    <!-- Art Collections section -->
+<div class="content container">
+    <h3>Art Collections</h3>
+    <div class="gallery">
+        <img src="image1.jpg" alt="Art Collection Image 1">
+        <img src="image2.jpg" alt="Art Collection Image 2">
+        <img src="image3.jpg" alt="Art Collection Image 3">
+        <img src="image4.jpg" alt="Art Collection Image 4">
+        <img src="image5.jpg" alt="Art Collection Image 5">
+        <img src="image6.jpg" alt="Art Collection Image 6">
+        <img src="image7.jpg" alt="Art Collection Image 7">
+        <img src="image8.jpg" alt="Art Collection Image 8">
+        <img src="image9.jpg" alt="Art Collection Image 9">
+    </div>
+</div>
+
+<footer>
+    <p>Contact me on <a href="https://github.com/mdem6" style="color: #00B7FF">GitHub</a>.</p>
+</footer>
 </body>
 </html>
-
 
